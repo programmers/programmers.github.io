@@ -9,7 +9,7 @@
     <style>
 
         a {
-            color: #aa79be;
+            color: #3c3cc3;
         }
 
         .logo {
@@ -20,9 +20,14 @@
             opacity: 1;
         }
 
-        p, li, a, h1, h2, h3{
+        p, li, a, h1, h2, h3 {
             font-family: sans-serif;
         }
+
+        .tbl-header-color th {
+            background-color: lavender;
+        }
+
     </style>
 </head>
 <body>
@@ -59,10 +64,10 @@
         <div class="row mt-5">
             <div class="col">
                 <table class="table table-bordered">
-                    <thead>
+                    <thead class="tbl-header-color">
                         <tr>
-                            <th scope="col">Student</th>
-                            <th scope="col">Sessions</th>
+                            <th class="text-center" scope="col">Student</th>
+                            <th class="text-center" scope="col">Sessions</th>
                         </tr>
                     </thead>
                     <tbody>
