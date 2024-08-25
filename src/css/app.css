@@ -1,0 +1,60 @@
+a {
+    color: #3c3cc3;
+}
+
+.logo {
+    width: 850px;
+}
+
+.ruler {
+    opacity: 1;
+}
+
+* {
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+.tbl-header-color th {
+    background-color: lavender;
+}
+
+.narrow-container {
+    max-width: 880px;
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    .narrow-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.verification-text {
+    color: #b3b0b0;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.vert-log-header {
+    width: 11%;
+    background-color: lavender !important;
+    font-weight: bold;;
+}
+
+.table {
+  border-color: lightslategray;
+}
+.table th,
+.table td {
+  border-color: lightslategray;
+}
+
+.floating-back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
