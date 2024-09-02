@@ -1,9 +1,9 @@
 a {
-    color: #3c3cc3;
+    color: #465da3;
 }
 
 .logo {
-    width: 850px;
+    width: 888px;
 }
 
 .ruler {
@@ -11,7 +11,6 @@ a {
 }
 
 * {
-    font-size: 20px;
     font-family: Roboto;
 }
 
@@ -21,7 +20,7 @@ a {
 }
 
 .narrow-container {
-    max-width: 880px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -57,4 +56,15 @@ a {
   bottom: 20px;
   left: 20px;
   z-index: 1000;
+}
+
+@media (min-width: 768px) {
+    h3 {
+        font-size: 34px;
+    }
+
+    p,td,th {
+        font-size: 20px;
+    }
+
 }
